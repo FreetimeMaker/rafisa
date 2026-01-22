@@ -1,0 +1,145 @@
+body {
+        background: linear-gradient(
+        to bottom,
+         #FFFFFF 0%,
+         #CCCCCC 20%,
+         #000000 45%,
+         #003F66 60%,
+         #0078C8 80%,
+         #0078C8 100%
+    );
+    color: red;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.text {
+        text-align: center;
+        justify-content: center; /* Horizontal */
+        align-items: center;     /* Vertical */
+        height: 200px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.75px;
+}
+
+.zurich, .bern, .fribourg {
+    display: inline-block;
+    width: 33%;
+}
+
+.zurich {
+    display: inline-block;
+    width: 33%;
+    text-align: left;    /* Hält Text und Bild linksbündig */
+    vertical-align: top; /* Sorgt dafür, dass die Spalte oben beginnt */
+}
+
+h3 {
+    font-size: 5em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    -webkit-text-stroke-color: yellow;
+    -webkit-text-stroke-width: 0.75px;
+}
+
+p {
+    font-size: 1.75em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    -webkit-text-stroke-color: violet;
+    -webkit-text-stroke-width: 0.325px;
+}
+
+address {
+    font-size: 1.75em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    -webkit-text-stroke-color: violet;
+    -webkit-text-stroke-width: 0.325px;
+}
+
+.it-pra, .it-sy {
+    display: inline-block;
+    width: 50%;
+}
+
+.it-pra {
+    text-align: left;
+}
+
+.it-sy {
+    text-align: right;
+}
+
+.berufe {
+    text-align: center;
+    justify-content: center; /* Horizontal */
+    align-items: center;     /* Vertical */
+    height: 200px;
+}
+
+.raf-die {
+    width: 284.64px;
+    height: 189.6px;
+    /* ENTFERNE position: absolute; */
+    display: block;      /* Erzeugt den Zeilenumbruch, damit der Text nach unten rutscht */
+    margin-left: 0;      /* Richtet das Bild exakt an der linken Kante aus */
+    position: relative;  /* Optional, falls du es doch verschieben willst, aber blockiert nicht den Text */
+}
+
+/* Bern: Text ist mittig, Bild soll auch mittig darüber sein */
+.bern {
+    display: inline-block;
+    width: 33%;
+    text-align: center; /* Zentriert Text UND das Bild */
+    vertical-align: top;
+}
+
+.raf-ber {
+    width: 284.64px;
+    height: 189.6px;
+    display: inline-block; /* Wichtig: Damit es auf text-align: center reagiert */
+    margin: 0; 
+    position: relative;
+}
+
+/* Fribourg: Text ist rechts, Bild soll auch rechts darüber sein */
+.fribourg {
+    display: inline-block;
+    width: 33%;
+    text-align: right; /* Schiebt Text UND das Bild nach rechts */
+    vertical-align: top;
+}
+
+.raf-fri {
+    width: 284.64px;
+    height: 189.6px;
+    display: inline-block; /* Wichtig: Damit es auf text-align: right reagiert */
+    margin: 0;
+    position: relative;
+}
